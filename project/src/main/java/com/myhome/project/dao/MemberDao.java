@@ -8,5 +8,9 @@ import com.myhome.project.model.Member;
 public interface MemberDao {
 
 	int insert(Member member);
+	
+	Member idCheck(String id);
+
+	Member nicknameCheck(String nickname);
 
 }
