@@ -17,17 +17,12 @@ public class MemberController {
 	
 	// 회원가입
 	@RequestMapping("joinMember")
-	public String join(@ModelAttribute Member member) {
-		String jumin2 = member.getMember_address2().substring(0,1);
-		member.setMember_address2(jumin2);
+	public String join(@ModelAttribute Member member, Model model) {
 		System.out.println("member_id : " + member.getMember_id());
 		int result = service.insert(member);
+		model.addAttribute("result",result);
 		
-		if(result != 1) {
-			return "redirect:join";
-		}
-		
-		return "cafe/main";
+		return "login/join_result";
 	}
 	// ID 중복검사
 	@RequestMapping("member_idCheck")

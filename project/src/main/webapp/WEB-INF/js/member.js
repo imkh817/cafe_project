@@ -1,7 +1,7 @@
 ﻿
 /* 회원가입 */
 function post_search(){
-	alert("우편번호 검색 버튼을 클릭하세요!");
+	alert("우편번호 찾 버튼을 클릭하세요!");
 }
 
 function post_check(){
@@ -71,14 +71,28 @@ function domain_list() {
 		f.member_domain.readOnly=true;
 	 }
  }
+/*닉네임 체크*/ 
 function nickname_check(){
+	
 	var member_nickname = $("#nickname").val();
-	alert("닉네임 "+member_nickname);
+	alert(member_nickname);
 	if($("#nickname").val() == ''){
 		alert("닉네임을 입력하세요");
 		$("#nickname").focus();
 		return false;
 	}
+	
+	//1.입력글자 길이 체크
+	if($.trim(member_nickname).length < 2){
+		alert("닉네임은 2자 이상이어야 합니다");
+		$("#nickname").val("").focus();
+		return false;
+	};
+	if($.trim(member_nickname).length > 8){
+		alert("닉네임은 8자리 이하여야 합니다");
+		$("#nickname").val("").focus();
+		return false;
+	};
 	
 	$.ajax({
 		type: "POST",

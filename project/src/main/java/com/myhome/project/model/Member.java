@@ -8,9 +8,9 @@ public class Member {
 	String member_jumin1; /* 주민번호1 */
 	String member_jumin2; /* 주민번호2 */
 	String member_nickname; /* 닉네임 */
-	int member_phone1; /* 핸드폰번호1 */
-	int member_phone2;/* 핸드폰번호2 */
-	int member_phone3; /* 핸드폰번호3 */
+	String member_phone1; /* 핸드폰번호1 */
+	String member_phone2;/* 핸드폰번호2 */
+	String member_phone3; /* 핸드폰번호3 */
 	String member_post; /* 우편번호 */
 	String member_address1; /* 주소 */
 	String member_address2; /* 상세 주소 */
@@ -55,22 +55,22 @@ public class Member {
 	public void setMember_nickname(String member_nickname) {
 		this.member_nickname = member_nickname;
 	}
-	public int getMember_phone1() {
+	public String getMember_phone1() {
 		return member_phone1;
 	}
-	public void setMember_phone1(int member_phone1) {
+	public void setMember_phone1(String member_phone1) {
 		this.member_phone1 = member_phone1;
 	}
-	public int getMember_phone2() {
+	public String getMember_phone2() {
 		return member_phone2;
 	}
-	public void setMember_phone2(int member_phone2) {
+	public void setMember_phone2(String member_phone2) {
 		this.member_phone2 = member_phone2;
 	}
-	public int getMember_phone3() {
+	public String getMember_phone3() {
 		return member_phone3;
 	}
-	public void setMember_phone3(int member_phone3) {
+	public void setMember_phone3(String member_phone3) {
 		this.member_phone3 = member_phone3;
 	}
 	public String getMember_post() {
