@@ -22,7 +22,7 @@ public class MemberController {
 		int result = service.insert(member);
 		model.addAttribute("result",result);
 		
-		return "login/join_result";
+		return  "login/join_result";
 	}
 	// ID 중복검사
 	@RequestMapping("member_idCheck")
