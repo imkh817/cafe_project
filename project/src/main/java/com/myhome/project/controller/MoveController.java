@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class MoveController {
+	
+	
+	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		return "home";
@@ -18,9 +21,13 @@ public class MoveController {
 	public String go() {
 		return "include/header";
 	}
+	
+	
+	
 	// 메인 페이지로 이동
 	@RequestMapping("/main")
 	public String g1() {
+		
 		return "cafe/main";
 	}
 	

@@ -6,7 +6,11 @@
 </head>
 <body>
 <h1>
+<<<<<<< HEAD
 	Hello world!  jihae
+=======
+	Hello world!  kunhee!
+>>>>>>> cd0043070995cf41667df608233cf73ec199c5de
 </h1>
 
 <<script>
