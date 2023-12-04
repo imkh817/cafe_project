@@ -9,7 +9,7 @@
 	Hello world!  kunhee!
 </h1>
 
-<<script>
+<script>
 	location.href="main";
 </script>
 </body>
