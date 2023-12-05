@@ -6,6 +6,7 @@
 
 	<typeAliases>
 		<typeAlias alias="member" type="com.myhome.project.model.Member" />
+<<<<<<<< HEAD:project/target/classes/util/configuration.xml
 		<typeAlias alias="cafe" type="com.myhome.project.model.Cafe" />
 		<typeAlias alias="category" type="com.myhome.project.model.Category" />
 		<typeAlias alias="hashtag" type="com.myhome.project.model.Hashtag" />
@@ -15,6 +16,9 @@
 		<typeAlias alias="reply" type="com.myhome.project.model.Reply" />
 		<typeAlias alias="response" type="com.myhome.project.model.Response" />
 		<typeAlias alias="review" type="com.myhome.project.model.Review" />
+========
+		<typeAlias alias="category" type="com.myhome.project.model.Category" />
+>>>>>>>> 5325649e6102e18a1f225ffaf76c6d2781d36388:project/bin/src/main/resources/util/configuration.xml
 	</typeAliases>	
 	
 </configuration>

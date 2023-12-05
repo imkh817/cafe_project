@@ -20,7 +20,7 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav">
-				<li class="nav-item ml-auto"><a href="main"
+				<li class="nav-item ml-auto"><a href="mainlist"
 					class="navbar-brand"> <img
 						src="<%=request.getContextPath()%>/images/home.png"
 						alt="Left Button" style="width: 60px; height: 60px; margin: 10px;">
