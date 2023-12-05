@@ -4,4 +4,7 @@
 
 <mapper namespace="com.myhome.project.dao.CategoryDao">
 
+	<select id="selectList" resultType="category">
+		select * from category
+	</select>
 </mapper>
