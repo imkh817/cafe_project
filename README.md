@@ -7,7 +7,8 @@
 Java 11  
 Javascript  
 Spring Boot 2.7.12  
-Mysql DB
+Mysql DB<br>
+Gradle
 
 ## 👨🏻‍💻 사용 기술
 - Mybatis : DB CRUD 기능, SQL 문 사용 및 mapper 이용하여 DB 관리
@@ -64,5 +65,9 @@ Mysql DB
 - 매물의 거래 지역을 지도에서 확인
 - 선택한 매물을 카카오톡으로 공유 가능
 - 조회수가 높은 상품을 인기 상품으로 표시
+
+## erd
+![Market_erd](https://github.com/imkh817/cafe_project/assets/142951589/541b11c6-2772-4f58-89c5-e70145cc864a)
+
 
 
